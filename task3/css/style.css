@@ -31,7 +31,7 @@ html {
 	margin-top:20px;
 }
 #message {
-	margin:5px 0px 10px 20px;
+	margin:3px 0px 10px 20px;
 	padding:10px 0px 0px 10px;
 	width:52%;
 }
@@ -41,9 +41,14 @@ button {
 	padding:13px 33px;
 	position:absolute;
 	left:22%;
-	border-radius:7%;
+	top:90%;
+	border-radius:7px;
+	margin-top:40px;
 }
 .send {
      text-align:center;
      color:white;
 }	 
+form {
+	margin:10px 0px 0px 10px;
+}
