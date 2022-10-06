@@ -3,14 +3,12 @@
 	padding:0;
 	box-sizing:border-box;
 }
-html {
-	 background-color:#bcddf32e;
-}
 .container {
 	    width:1140px;
 	    margin:0px auto;
 		box-sizing:border-box;
 		position:relative;
+		background-color:#bcddf32e;
 }
 .detail {
 	display:flex;
