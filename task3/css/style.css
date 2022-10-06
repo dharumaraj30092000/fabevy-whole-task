@@ -12,36 +12,35 @@ html {
 		box-sizing:border-box;
 		position:relative;
 }
-.name {
-	margin:20px 0px 20px 20px;
-	display:inline-block;
-	width:100%;
+.detail {
+	display:flex;
+	justify-content:flex-start;
+}
+.detail .name-email {
+	margin:15px 0px;
 }
 #fname {
-    padding:10px 10px 10px 10px;
-	width:25%;
-}	
+	padding:10px 90px 10px 0px;
+}
 #sname {
-    padding:10px 10px 10px 10px;
-	width:25%;
-	margin-left:1.5%;
-}	
+    padding:10px 90px 10px 0px;
+	margin-left:40px;
+}
 #sub_name {
-	padding:10px 10px 10px 10px;
-	width:52%;
-	margin-top:20px;
+	padding:10px 0px;
+	width:50%;
+	margin-bottom:15px;
 }
 #message {
-	margin:3px 0px 10px 20px;
-	padding:10px 0px 0px 10px;
-	width:52%;
+	padding:10px 0px;
+	width:50%;
 }
 button {
 	background:#1b41c7;
 	border:none;
 	padding:13px 33px;
 	position:absolute;
-	left:22%;
+	left:20%;
 	top:90%;
 	border-radius:7px;
 	margin-top:40px;
