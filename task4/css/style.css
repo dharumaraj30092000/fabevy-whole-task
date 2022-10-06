@@ -14,32 +14,34 @@ html {
 .name {
 	background-color:white;
 	display:flex;
-	padding-left:60px;
-	margin:200px 0px 200px 0px;
+    align-items:center;
+    padding:0px 15px;
 	font-family:hoobe,sans-serif;
 }
-.nav{
-	font-size:20px;
+.name .logo{
+	width:25%;
 }
-.menu {
-	display:flex;
+.name .menu {
+	width:75%;
+}
+.navbar .nav-list{
+	text-align:right;
+}
+.navbar .nav-list li{
 	list-style:none;
-    margin-left:150px;
-	padding-top:10px;
+	display:inline-block;
 }
-.child {
+.navbar .nav-list li a{
+	display:block;
 	text-decoration:none;
 	padding-right:40px;
 	color:#000;
 }
-h1 {
+.logo h1 {
 	font-size:40px;
 }
-a {
-	padding:0px 40px 0px 0px;
-	color: blue;
-}
-span {
+
+.logo h1 span {
 	color:blue;
 	font-size:40px;'
 	
