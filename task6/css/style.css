@@ -83,7 +83,7 @@
     display: block;
 	font-size: 18px;
 	text-decoration: none;
-	padding: 0 13px;
+	padding: 0 14px;
 	color: black;
 }
 .logo-nav li > a.home {
@@ -145,7 +145,7 @@
 .logo-nav li:nth-child(9) {
 	background: #e03a3c;
 	border-radius: 3px;
-	padding: 10px 25px;
+	padding: 10px 15px;
 }
 .logo-nav li:nth-child(9) > a {
 	color: white;
@@ -159,15 +159,44 @@
 .logo-nav li:nth-child(9) > a:hover {
 	color: white;
 }
-/*/*---------- banner1 start -----------*
+/*---------- banner1 start -----------*
 .banner-content {
-	background: lightgray;
-	padding: 100px 0;
-	height: 400px;
+	background-image: url(../image/hero-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1100px;
 }
 .banner-information {
-	height: 200px;
-	background: black;
+	padding: 350px 10px;
+	width: 100%;
+}
+.banner-information h1 {
+    color: white;
+	font-size: 60px;
+	font-weight: 700;
+	font-family: 'raleway',sans-serif;
+	margin-bottom: 20px;
+}
+.banner-information p {
+	color: white;
+	font-size: 30px;
+	font-weight: 50;
+	font-family: 'raleway',sans-serif;
+	margin-bottom: 40px;
+}
+.banner-button {
+	background: #e03a3c;
+	border-radius: 5px;
+	padding: 15px 30px;
+	width: 200px;
+	text-align: center;
+}
+.button {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'poppins',sans-serif;
 }
 /*---------- option-logo start -----------*
 .row-logo-option {
