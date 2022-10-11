@@ -68,7 +68,7 @@
     width: 100%;
 }
 .logo-name > a {
-	font-size: 38px;
+	font-size: 40px;
 	font-weight: 800;
 	text-decoration: none;
 	color: black;
@@ -207,6 +207,32 @@
 .banner-button:hover {
 	background: none;
 	border: 2px solid white;
+}
+/*.hidden-arrow {
+	position: relative;
+	padding-top: 275px; 
+	padding-right: 0;
+}
+.arrow {
+	background: #e03a3c;
+	padding: 0 4px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	border-radius: 3px;
+	background-position: fixed;
+}
+.banner-content:hover .arrow{
+	visibility: hidden;
+	opacity: 0;
+	transform: translateZ(10px);
+	transition: all 0.9s ease;
+}
+.arrow:hover {
+	opacity: 0.94;
 }
 /*---------- option-logo start -----------*
 .row-logo-option {
