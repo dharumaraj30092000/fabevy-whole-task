@@ -68,8 +68,8 @@
     width: 100%;
 }
 .logo-name > a {
-	font-size: 30px;
-	font-weight: 600;
+	font-size: 38px;
+	font-weight: 800;
 	text-decoration: none;
 	color: black;
 }
@@ -85,6 +85,8 @@
 	text-decoration: none;
 	padding: 0 14px;
 	color: black;
+	font-weight: 600;
+	font-family: 'raleway',sans-serif;
 }
 .logo-nav li > a.home {
 	color: #e03a3c;
@@ -102,9 +104,9 @@
 	left: 0;
 	min-width: 180px;
 	background: white;
-	box-shadow: -2px -3px 4px lightgray;
+	box-shadow: -2px -3px 3px lightgray;
     height: 150px;	
-	border-radius: 5px;
+	border-radius: 1px;
 	transform: translateY(20px);
 	opacity: 0;
 	visibility: hidden;
@@ -121,13 +123,13 @@
 }
 .sub-dropdown2 {
 	position: absolute;
-	top: 40px;
-	left: 180px;
+	top: 37px;
+	left: 182px;
 	min-width: 140px;
 	background: white;
-	box-shadow: -2px -3px 4px lightgray;
+	box-shadow: -2px -3px 3px lightgray;
     height: 130px;	
-	border-radius: 5px;
+	border-radius: 1px;
 	transform: translateX(20px);
 	opacity: 0;
 	visibility: hidden;
@@ -159,17 +161,20 @@
 .logo-nav li:nth-child(9) > a:hover {
 	color: white;
 }
-/*---------- banner1 start -----------*
+/*---------- banner1 start -----------*/
 .banner-content {
 	background-image: url(../image/hero-bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1100px;
+	height: 750px;
+}
+.banner1 {
+	 background: rgba(0, 0, 0, 0.7);
+	 height: 100%;
 }
 .banner-information {
-	padding: 350px 10px;
-	width: 100%;
+	padding-top: 230px;
 }
 .banner-information h1 {
     color: white;
@@ -191,12 +196,17 @@
 	padding: 15px 30px;
 	width: 200px;
 	text-align: center;
+	border: 2px solid #e03a3c;
 }
 .button {
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
-	font-family: 'poppins',sans-serif;
+	font-family: 'raleway',sans-serif;
+}
+.banner-button:hover {
+	background: none;
+	border: 2px solid white;
 }
 /*---------- option-logo start -----------*
 .row-logo-option {
