@@ -208,28 +208,28 @@
 	background: none;
 	border: 2px solid white;
 }
-/*.hidden-arrow {
-	position: relative;
+.hidden-arrow {
 	padding-top: 275px; 
 	padding-right: 0;
 }
 .arrow {
 	background: #e03a3c;
 	padding: 0 4px;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	color: white;
 	text-align: center;
 	font-size: 40px;
 	border-radius: 3px;
-	background-position: fixed;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }
 .banner-content:hover .arrow{
 	visibility: hidden;
 	opacity: 0;
 	transform: translateZ(10px);
-	transition: all 0.9s ease;
+	transition: all 0.1s ease;
 }
 .arrow:hover {
 	opacity: 0.94;
