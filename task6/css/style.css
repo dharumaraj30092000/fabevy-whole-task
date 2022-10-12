@@ -64,8 +64,9 @@
 .header-content {
 	background: white;
     padding: 30px 0;
-	position: fixed;
     width: 100%;
+	position: fixed;
+	z-index: 2;
 }
 .logo-name > a {
 	font-size: 40px;
@@ -76,6 +77,9 @@
 .logo-name a > span {
 	color: #e03a3c;
 }
+.logo-nav {
+    text-align: right;
+}
 .logo-nav ul > li {
 	display: inline-block;
 }
@@ -83,7 +87,7 @@
     display: block;
 	font-size: 18px;
 	text-decoration: none;
-	padding: 0 14px;
+	padding-right: 25px;
 	color: black;
 	font-weight: 600;
 	font-family: 'raleway',sans-serif;
@@ -105,15 +109,16 @@
 	min-width: 175px;
 	background: white;
 	box-shadow: -2px -3px 3px lightgray;
-    height: 160px;	
+    height: 175px;	
 	border-radius: 1px;
 	transform: translateY(20px);
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.6s ease;
+	text-align: left;
 }
 .sub-dropdown1 li > a {
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	font-size: 15px;
 }
 .dropdown:hover .sub-dropdown1 {
@@ -125,18 +130,19 @@
 	position: absolute;
 	top: 40px;
 	left: 172px;
-	min-width: 140px;
+	min-width: 135px;
 	background: white;
 	box-shadow: -2px -3px 3px lightgray;
-    height: 130px;	
+    height: 150px;	
 	border-radius: 1px;
 	transform: translateX(20px);
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.6s ease;
+	text-align: left;
 }
 .sub-dropdown2 li > a {
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	font-size: 15px;
 }
 .sub-dropdown1:hover .sub-dropdown2 {
@@ -147,7 +153,7 @@
 .logo-nav li:nth-child(9) {
 	background: #e03a3c;
 	border-radius: 3px;
-	padding: 10px 15px;
+	padding: 10px 0 10px 20px;
 }
 .logo-nav li:nth-child(9) > a {
 	color: white;
@@ -200,7 +206,7 @@
 	transform: translateZ(10px);
 	transition: all 0.7s ease;
 }
-.button {
+.button1 {
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
@@ -212,16 +218,17 @@
 }
 .arrow {
 	background: #e03a3c;
-	padding: 0 4px;
+	padding: 0 7px;
 	position: fixed;
 	right: 0;
 	bottom: 0;
 	color: white;
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
 	border-radius: 3px;
 	margin-right: 15px;
 	margin-bottom: 15px;
+	z-index: 2;
 }
 .banner-content:hover .arrow{
 	visibility: hidden;
@@ -232,45 +239,112 @@
 .arrow:hover {
 	opacity: 0.94;
 }
-/*---------- option-logo start -----------*
+/*---------- option-logo start -----------*/
 .row-logo-option {
+	padding: 110px 0;
+}
+.logo-collection img {
+    width: 100%;
+	padding: 0 40px;
+	filter: grayscale(100%);
+	opacity: 0.4;
+}
+.logo-collection img:hover {
+	opacity: 1;
+	filter: grayscale(0);
+}
+/*---------- about-us start -----------*/
+.skew-position { 
+	z-index: 1;
+	position: relative;
+	padding: 100px 0;
+}
+.skew-position:after {
+	content:"";
 	background: black;
-	height: 90px;
-	padding: 20px 0;
+	z-index: -1;
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: skewY(-2deg);	
 }
-.logo-collection {
-	background: lightgray;
-	height: 50px;
+.about-us-information h1 {	
+    color: white;
+	font-family: 'raleway',sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 25px;
 }
-/*---------- about-us start -----------*
-.about-us {
-	background: lightgray;
-	padding: 20px 0;
-	height: 500px;
+.about-us-information p{
+	color: white;
+	font-family: 'poppins',sans-serif;
+	margin-bottom: 35px;
 }
-.about-us-information {
-	background: black;
-	height: 450px;
+.about-us-button {
+	background: none;
+	border: #e03a3c solid 2px;
+	border-radius: 30px;
+	width: 35%;
+	text-align: center;
 }
-.row-content {
-	background: black;
-	height: 215px;
-	margin-bottom: 20px;
+.button2 {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'poppins',sans-serif;
+}	
+.about-us-button span > i {
+	padding: 13px 0;
+	display: inline-block;
+    text-align: center;
 }
-/*---------- emoji start -----------*
-.emoji-options {
-	background: black;
-	height: 150px;
-	padding: 25px 0;
+.about-us-button:hover {
+	background: #e03a3c;
 }
+.row-content span > i {
+	color: #e03a3c;
+	font-size: 30px;
+}
+.row-content h3 {
+	color: white;
+	font-family: 'raleway',sans-serif;
+	font-size: 25px;
+	margin: 15px 0;
+}
+.row-content p {
+	color: #444444;
+	font-family: 'poppins',sans-serif;
+	margin-bottom: 50px;
+}
+/*---------- emoji start -----------*/
 .emoji {
-	background: lightgray;
-	height: 100px;
+	background: white;
+	border-radius: 3px;
+	box-shadow: -1px -1px 15px 1px lightgrey;
+	text-align: center;
+	padding-bottom: 20px;
 }
-.skill-content {
-	background: lightgray;
-	height: 500px;
-	padding: 20px 0;
+.emoji-size {
+    width: 150%;
+    font-size: 30px;
+    height: 150%;
+    border-radius: 100%;
+    border: none;
+    padding: 7px 15px;
+    background: white;
+    text-align: center;
+    box-shadow: -1px -1px 15px 1px lightgrey;
+	color: #e03a3c;
+}
+.emoji h1 {
+	font-size: 50px;
+	font-weight: 900;
+	padding-top: 5px;
+}
+.emoji p {
+	font-family: 'raleway',sans-serif;
 }
 /*---------- skill start -----------*
 .skill-collection {
