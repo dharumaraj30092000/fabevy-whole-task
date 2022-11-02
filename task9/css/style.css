@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.section {
+	padding: 18px 0;
+	margin: 0 10px;
+}
+.row {
+	padding: 0 10px;
+}
+.values {
+	padding-bottom: 10px;
+}
+.values-list {
+	padding-top: 10px;
+}
+.list {
+	padding-bottom: 10px;
+}
+.mobile {
+	padding-bottom: 10px;
+}
+.mobile-list {
+	padding-top: 10px;
+}
+.service {
+	padding-bottom: 10px;
+}
+.service-list {
+	padding-top: 10px;
+}
+.cost {
+	padding-bottom: 10px;
+}
+.quest {
+	padding-bottom: 10px;
+}
+.add {
+	padding-bottom: 10px;
+}
+.add-opt {
+	padding-bottom: 10px;
+}
+.expert {
+	padding-bottom: 10px;
+}
+.guide {
+	padding-bottom: 10px;
+}
+.logo {
+	padding-bottom: 10px;
+}
+.blog {
+	padding-bottom: 10px;
+}
+.contact {
+	padding-bottom: 10px;
+}
+.contact-det {
+	padding-top: 10px;
+}
+.search {
+	padding: 5px 10px 5px 10px;
+}
+.available {
+	padding-top: 10px;
+}
+.footer {
+	padding: 5px 10px 5px 10px;
+}
